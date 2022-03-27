@@ -1,38 +1,27 @@
 .App {
-  text-align: center;
+	width: auto;
+	margin: 0;
+	font-family: Open Sans;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+	font-family: Krona One;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+	font-size: 20px;
+	font-stretch: condensed;
+	font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p {
+	font-weight: 400;
+	font-size: 15.5px;
+	line-height: 1.6;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dash {
+	border: 2px #000000 solid;
+	width: 25px;
+	margin-top: 65px;
 }

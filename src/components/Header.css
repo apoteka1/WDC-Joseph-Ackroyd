@@ -1,0 +1,33 @@
+#header__container {
+	display: flex;
+	height: 715px;
+	background-image: url("../images/hero.jpg");
+	transform: scaleX(-1);
+	background-position: 50% 5%;
+	justify-content: end;
+	align-items: flex-end;
+	color: #ffffff;
+}
+#header__content {
+	transform: scaleX(-1);
+	margin-bottom: 228px;
+	margin-right: 125px;
+}
+#header__header {
+	font-size: 50px;
+	margin-bottom: 25px;
+	font-weight: 300;
+}
+
+#header__text {
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+
+#header__link {
+	border: 1px #ffffff solid;
+	font-family: Krona One;
+	font-weight: lighter;
+	font-size: 14px;
+	padding: 15px 70px;
+}
